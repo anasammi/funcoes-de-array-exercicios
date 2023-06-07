@@ -19,3 +19,5 @@ const produtosLimpeza = produtos.filter(item => item.categoria === "Limpeza")
     .map(item => item.nome)
 
  console.log(produtosLimpeza)
+
+console.log("oi")
