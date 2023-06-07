@@ -11,3 +11,11 @@ const produtos = [
     { nome: "Sabão em Pó", categoria: "Limpeza", preco: 10.80 }
  ]
  
+//  const limpeza = produtos.filter((item) => item.categoria === "Limpeza")
+
+//  const nomes = limpeza.map((item) => item.nome)
+ 
+const produtosLimpeza = produtos.filter(item => item.categoria === "Limpeza")
+    .map(item => item.nome)
+
+ console.log(produtosLimpeza)
